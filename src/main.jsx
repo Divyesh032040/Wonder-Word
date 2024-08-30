@@ -10,7 +10,7 @@ import { Protected , Login } from './Components/Index.js'
 
 
 //pages
-import AddPost from "./pages/AddPost";
+import AddPost from "./Pages/AddPost.jsx";
 import SignupComponent from './Pages/SignupComponent.jsx'
 import EditPost from "./pages/EditPost";
 import Home from './Pages/Home.jsx'
