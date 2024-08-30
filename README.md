@@ -38,8 +38,8 @@ Mega Blog is a full-fledged blog application built with React.js that offers the
 
   ## Deployment & Repository
 
-- **Live Demo:** https://mega-blog-nine-gamma.vercel.app
-- **Repository:** https://github.com/rajanjha9235/mega-blog
+- **Live Demo:** https://wonder-word.vercel.app/
+- **Repository:** https://github.com/Divyesh032040/Wonder-Word
 
 ## Installation
 
