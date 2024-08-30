@@ -12,15 +12,12 @@ import { Protected , Login } from './Components/Index.js'
 //pages
 import AddPost from "./Pages/AddPost.jsx";
 import SignupComponent from './Pages/SignupComponent.jsx'
-<<<<<<< HEAD
+
 import EditPost from './Pages/EditPost.jsx';
 
-=======
-import EditPost from './Pages/EditPost.jsx'
->>>>>>> 6f8c83152b4cb778496d95db42493dc25c039076
 import Home from './Pages/Home.jsx'
 
-import Post from "./pages/Post.jsx";
+import Post from "./Pages/Post.jsx";
 import AllPosts from "./Pages/AllPost.jsx";
 
 
