@@ -21,7 +21,7 @@ function Home() {
     if (posts.length === 0) {
         return (
             
-        <div className="flex-grow w-full py-8 h-screen flex flex-col justify-center items-center bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-gray-300">
+        <div className=" flex-grow w-full py-8 h-screen flex flex-col justify-center items-center bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-gray-300">
     <Container>
         <div className="flex flex-wrap justify-center">
             <div className="p-4 w-full text-center">
@@ -65,11 +65,11 @@ function Home() {
             <p className="text-base text-gray-300 mb-2">"This platform has transformed how I access and share knowledge."</p>
             <span className="block text-sm text-gray-500">- Happy Member</span>
         </div>
-        <div className="bg-gray-800 p-4 rounded-lg shadow-md max-w-xs">
+        <div className="bg-gray-800 p-4 rounded-lg shadow-md max-w-xs hidden sm:block">
             <p className="text-base text-gray-300 mb-2">"A vibrant community that fosters creativity and growth."</p>
             <span className="block text-sm text-gray-500">- Enthusiastic User</span>
         </div>
-        <div className="bg-gray-800 p-4 rounded-lg shadow-md max-w-xs">
+        <div className="bg-gray-800 p-4 rounded-lg shadow-md max-w-xs hidden sm:block">
             <p className="text-base text-gray-300 mb-2">"Access to the latest in technology and innovation."</p>
             <span className="block text-sm text-gray-500">- Tech Enthusiast</span>
         </div>
@@ -79,7 +79,10 @@ function Home() {
 
     </Container>
         </div>
-    )
+
+
+);
+
 }
     return (
         <div className='flex-grow w-full py-8'>
