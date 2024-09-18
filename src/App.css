@@ -49,3 +49,92 @@
 .read-the-docs {
   color: #888;
 } */
+
+
+
+
+@keyframes fallingStars {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.bg-slate-800-gradient {
+  background-color: #0f172a; /* Very dark bluish-gray for dark mode */
+  position: relative;
+  overflow: hidden; /* Ensure falling elements stay within the container */
+}
+
+/* Create the falling stars or particles */
+.star {
+  position: absolute;
+  top: -10px; /* Start above the container */
+  width: 5px;
+  height: 5px;
+  background: white;
+  opacity: 0.8;
+  border-radius: 50%;
+  animation: fallingStars 5s linear infinite;
+}
+
+.star:nth-child(1) {
+  left: 10%;
+  animation-duration: 6s;
+  animation-delay: 1s;
+}
+
+.star:nth-child(2) {
+  left: 20%;
+  animation-duration: 8s;
+  animation-delay: 2s;
+}
+
+.star:nth-child(3) {
+  left: 30%;
+  animation-duration: 5s;
+  animation-delay: 3s;
+}
+
+.star:nth-child(4) {
+  left: 40%;
+  animation-duration: 6s;
+  animation-delay: 5s;
+}
+
+.star:nth-child(5) {
+  left: 50%;
+  animation-duration: 8s;
+  animation-delay: 2.5s;
+}
+
+.star:nth-child(6) {
+  left: 60%;
+  animation-duration: 5s;
+  animation-delay: 3s;
+}
+
+.star:nth-child(7) {
+  left: 70%;
+  animation-duration: 6s;
+  animation-delay: 5s;
+}
+
+.star:nth-child(8) {
+  left: 80%;
+  animation-duration: 8s;
+  animation-delay: 2.5s;
+}
+
+.star:nth-child(9) {
+  left: 90%;
+  animation-duration: 5s;
+  animation-delay: 3s;
+}
+/* Add more stars as needed with different delays */
+
+

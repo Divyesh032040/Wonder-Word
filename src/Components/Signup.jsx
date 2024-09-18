@@ -33,10 +33,13 @@ import { useDispatch } from 'react-redux'
     };
   
     return (
-      <div className="flex items-center justify-center">
-        <div className="mx-auto w-full max-w-lg bg-gray-100 rounded-xl p-10 border border-black/10">
+
+      
+      <div className="flex items-center justify-center ">
+      
+        <div className="mx-auto  w-full max-w-lg  rounded-xl p-10 border bg-white border-black">
           
-          <div className="mb-2 flex justify-center">
+          <div className="mb-2 flex justify-center ">
           <span className="inline-block w-full max-w-[300px]">
                     <h1 className=' text-black text-center text-3xl border-neutral-800 font-bold '>
                     WonderWord
@@ -108,6 +111,7 @@ import { useDispatch } from 'react-redux'
             </div>
           </form>
         </div>
+      
       </div>
     );
   }

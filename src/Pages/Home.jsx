@@ -22,6 +22,12 @@ function Home() {
         return (
             
         <div className=" flex-grow w-full py-8 h-screen flex flex-col justify-center items-center bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-gray-300">
+            <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
     <Container>
         <div className="flex flex-wrap justify-center">
             <div className="p-4 w-full text-center">
@@ -85,7 +91,14 @@ function Home() {
 
 }
     return (
-        <div className='flex-grow w-full py-8'>
+        <div className='flex-grow bg-[#0f172a] w-full py-8'>
+              <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
+    <div className="star"></div>
             <Container>
                 <div className='flex flex-wrap'>
                     {posts.map((post) => (
