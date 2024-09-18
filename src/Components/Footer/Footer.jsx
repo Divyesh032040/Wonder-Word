@@ -14,7 +14,7 @@ function Footer() {
               <Logo width='100px' />
             </div>
             <p className='text-sm text-gray-400'>
-              &copy; 2023 Your Company. All Rights Reserved.
+              &copy; 2024 Your Company. All Rights Reserved.
             </p>
           </div>
           <div className='w-full lg:w-1/4 p-4'>
